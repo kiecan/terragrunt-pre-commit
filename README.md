@@ -1,2 +1,3 @@
-# typeform-pre-commit
-Precommit hooks to be used in Typeform
+# terragrunt-pre-commit
+
+Precommit hooks to be used for Terragrunt 
