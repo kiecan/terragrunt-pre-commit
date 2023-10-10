@@ -1,0 +1,13 @@
+- id: terragrunt_providers_lock
+  name: Terragrunt Providers Lock
+  description: Updates provider signature in Terragrunt lock files.
+  entry: hooks/terragrunt_providers_lock.sh
+  language: script
+  files: terragrunt/.*\.terraform\.lock\.hcl
+  exclude: \.terraform\/.*$
+- id: check_tag_already_exists
+  name: Check tag already exists
+  description: Check whether git tag already exists
+  entry: hooks/check_tag_already_exists.sh
+  language: script
+  files: version.json
